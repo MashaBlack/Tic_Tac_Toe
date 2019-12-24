@@ -154,17 +154,21 @@
     <ClCompile Include="Computer.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainGame.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="MySprite.cpp" />
     <ClCompile Include="MyText.cpp" />
+    <ClCompile Include="Players.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="board.h" />
     <ClInclude Include="Computer.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="MainGame.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="MySprite.h" />
     <ClInclude Include="MyText.h" />
+    <ClInclude Include="Players.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

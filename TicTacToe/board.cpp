@@ -5,6 +5,7 @@ Board::Board()
 
 }
 
+
 void Board::new_board()
 {
     for (int i = 0; i < 9; i++)

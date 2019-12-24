@@ -8,7 +8,6 @@ class MyText
 	sf::Font font;
 	sf::Text text;
 public:
-	//MyText();
 	MyText(const std::string& str, int size);
 	sf::Text get_text();
 	void change_text(const std::string& std);

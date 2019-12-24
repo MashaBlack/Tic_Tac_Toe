@@ -4,6 +4,7 @@
 #include "MySprite.h"
 #include "MyText.h"
 #include "Game.h"
+#include "Players.h"
 
 class Menu
 {

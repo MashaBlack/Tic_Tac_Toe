@@ -1,15 +1,14 @@
-#ifndef GAME
-#define GAME
+#ifndef PL
+#define PL
+
 #include "MainGame.h"
-#include "Computer.h"
 #include "Menu.h"
 
-class Game : public MainGame
+class Players : public MainGame
 {
-	Computer comp;
-	int turn;
+	bool Whoturn;
 public:
-	Game(int tr);
+	Players();
 	void set_move(int x);
 	void who_turn();
 	void set_xo();
