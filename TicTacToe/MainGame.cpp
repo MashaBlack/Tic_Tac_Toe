@@ -66,7 +66,7 @@ void MainGame::start_game()
         {
             clock.restart();
             time = clock.getElapsedTime().asSeconds();
-            MySprite temp("");
+            TemplateSprite temp("");
             if (board.winner() == 1)
             {
                 temp = won;

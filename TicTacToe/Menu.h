@@ -1,8 +1,8 @@
 #ifndef MENU
 #define MENU
 #include <SFML/Graphics.hpp>
-#include "MySprite.h"
-#include "MyText.h"
+#include "TemplateSprite.h"
+#include "MenuText.h"
 #include "Game.h"
 #include "Players.h"
 

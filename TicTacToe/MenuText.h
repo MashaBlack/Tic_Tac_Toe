@@ -1,14 +1,14 @@
-#ifndef MYTEXT
-#define MYTEXT
+#ifndef MENUTEXT
+#define MENUTEXT
 #include <SFML/Graphics.hpp>
 
 
-class MyText
+class MenuText
 {
 	sf::Font font;
 	sf::Text text;
 public:
-	MyText(const std::string& str, int size);
+	MenuText(const std::string& str, int size);
 	sf::Text get_text();
 	void change_text(const std::string& std);
 	void set_pos(int x, int y);

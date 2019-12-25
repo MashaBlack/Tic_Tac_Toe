@@ -1,6 +1,6 @@
-#include "MyText.h"
+#include "MenuText.h"
 
-MyText::MyText(const std::string& str, int size)
+MenuText::MenuText(const std::string& str, int size)
 {
 	font.loadFromFile("font/Alata-Regular.ttf");
 	text.setFont(font);
@@ -9,17 +9,17 @@ MyText::MyText(const std::string& str, int size)
 	text.setCharacterSize(size);
 }
 
-sf::Text MyText::get_text()
+sf::Text MenuText::get_text()
 {
 	return text;
 }
 
-void MyText::change_text(const std::string& str)
+void MenuText::change_text(const std::string& str)
 {
 	text.setString(str);
 }
 
-void MyText::set_pos(int x, int y)
+void MenuText::set_pos(int x, int y)
 {
 	text.setPosition(x, y);
 }

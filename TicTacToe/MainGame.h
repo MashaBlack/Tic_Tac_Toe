@@ -1,7 +1,7 @@
 #ifndef MGAME
 #define MGAME
 #include <SFML/Graphics.hpp>
-#include "MySprite.h"
+#include "TemplateSprite.h"
 #include "board.h"
 
 class MainGame
@@ -10,13 +10,13 @@ public:
 	//страшно
 	int scrX;
 	int scrY;
-	MySprite BackGround;
-	MySprite lose;
-	MySprite won;
-	MySprite tie;
-	MySprite back;
-	MySprite X;
-	MySprite O;
+	TemplateSprite BackGround;
+	TemplateSprite lose;
+	TemplateSprite won;
+	TemplateSprite tie;
+	TemplateSprite back;
+	TemplateSprite X;
+	TemplateSprite O;
 	Board board;
 	sf::Clock clock;
 	float time;
